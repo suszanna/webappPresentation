@@ -1,2 +1,4 @@
 # webappPresentation
-WebApp presentation for Interactive Histogram using slider and arrow keys as input, output to plot in real time
+WebApp presentation for Interactive Histogram using slider and arrow keys as input.  The output modifies the bins of the histogram in real time.  Data used is the Volcano data from R archives. Plotly is good to show same Volcano data with surface mode.  Here, we use hist().
+
+Presentation using Rstudio Presenter and RPubs. The webapp still image here is of the app's output & is accesssed by the Presenter from this site.
