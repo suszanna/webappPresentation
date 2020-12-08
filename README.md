@@ -6,3 +6,6 @@ Presentation using Rstudio Presenter and RPubs. The webapp still image here is o
 html of the 5 page presentation:
 
 file:///private/var/folders/9q/r5gqpfc940s059pnljx389zh0000gn/T/RtmpIUeSeM/view1302e62bc4c.dir/presentation.html#/
+
+
+Other work:  maps is an html page with marker and message on click to orient for commute in and out of San Francisco from the GG Park area.
