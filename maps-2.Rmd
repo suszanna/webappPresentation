@@ -1,0 +1,43 @@
+---
+title: "maps-2"
+author: "suszanna"
+date: "12/3/2020"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+###### Create a web page using R Markdown that features a map created with Leaflet.
+
+```{r}
+#install.packages("leaflet")
+library(leaflet)
+
+homeIcon <- makeIcon(
+        iconUrl = 
+"https://i.ibb.co/4sRpsLq/noun-Race-Car-2028208.png",
+#"https://i.ibb.co/BgWyHvs/Noun-Paris-650316.png",
+        iconWidth = 31*215/210, iconHeight = 37,
+        iconAnchorX = 31*215/230/2, iconAnchorY = 29
+)
+
+big7mileCity <- leaflet() %>%
+  addTiles() %>% 
+  addMarkers(lat=37.7760, lng = -122.4194, popup="Commuter flight route: in on Fell, out on Oak.", icon = homeIcon)
+
+big7mileCity 
+
+```
+
+##### notes
+
+```{r echo = FALSE}
+#getwd()
+```
+
+Note that the `echo = FALSE` parameter can be added to the code chunk to prevent printing the R code.
