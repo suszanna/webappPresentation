@@ -11,4 +11,4 @@ file:///private/var/folders/9q/r5gqpfc940s059pnljx389zh0000gn/T/RtmpIUeSeM/view1
 
 
 ### other work:  
-maps-2 is an html page with marker and message on click to orient for commute in and out of San Francisco from the GG Park area.
+maps-2 is an html page of a map of the GG Park area of San Francisco, specifically featuring commuter route along Fell and Oak, 2 parallel one-way streets.  It contains an icon marker and message on click to orient commuters in and out of the city. 
